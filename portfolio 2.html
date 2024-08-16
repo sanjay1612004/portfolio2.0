@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio 2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<!-- -----header---- -->
+    <div id="header">
+        <div class="container">
+            <nav class="navbar">
+                <h1 class="heading">My Portfolio</h1>
+                    <ul id="sidemenu">
+                        <li class="mli"><a class="link" href="#home">Home</a></li>
+                        <li class="mli"><a class="link" href="#about">About</a></li>
+                        <li class="mli"><a class="link" href="#Services">Services</a></li>
+                        <li class="mli"><a class="link" href="#portfolio">Portfolio</a></li>
+                        <li class="mli"><a class="link" href="#education">Education</a></li>
+                        <li class="mli"><a class="link" href="#contact">ContactMe</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>   
+<!-- ----home--- -->
+    <div class="home" id="home">
+        <div class="container2">
+            <div class="imgbox" data-aos="fade-down" ></div>
+            <h1 class="intro"><span class="name">I'm Sanjay balaji,</span><br>frontend web developer</h1>
+            
+            <!-- <p>I'm professional web developer</p> -->
+        </div>
+        <div class="buttons">
+            <!-- <div class="holder1">
+                <a href=""><i class="fa-brands fa-google"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div> -->
+            <div class="holder2">
+                <button class="connect" data-aos="fade-right">Connect with me</button>
+                <a  target="_blank" href="sanjayresume.pdf" data-aos="fade-left"> My Resume</a>
+                <!-- <button class="resume">My Resume</button> -->
+    
+            </div>
+        </div>
+    </div>
+<!-- ------about------- -->
+    <div class="about" id="about">
+        <h1>About Me</h1>
+        <div class="persdetail" data-aos="fade-down-right">
+            <h2 class="persh2">PERSONAL DETAIL</h2>
+            <div class="holders" >
+                <div class="detail1" >
+                    <ul class="uldetail">
+                        <li><b>Name:</b> K.Sanjaybalaji</li>
+                        <li><b>Birthday:</b> 16/12/2004</li>
+                        <li><b>Degree:</b> CSE</li>
+                        <li><b>City:</b> Salem</li>
+                     </ul>
+                </div>
+                <div class="detail2">
+                    <ul class="uldetail">
+                        <li><b>AGE:</b> 19</li>
+                        <li><b>Email:</b> sanjaybalaji837@gmail.com</li>
+                        <li><b>Phone:</b> 7010089425</li>
+                        <li><b>University:</b> Anna university</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container" >
+            <div class="skill" data-aos="flip-left">
+                <h2>coding skills </h2>
+                <ul>
+                    <li><h3>html</h3>
+                        <span class="bar"><span class="html"></span></span>
+                    </li>
+                    <li><h3>css</h3>
+                        <span class="bar"><span class="css"></span></span>
+                    </li>
+                    <li><h3>python</h3>
+                        <span class="bar"><span class="python"></span></span>
+                    </li>
+                    <li><h3>javascript</h3>
+                        <span class="bar"><span class="javascript"></span></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="skill2" data-aos="flip-right">
+                <h2>professional skills</h2>
+                <ul>
+                    <li><h3>creativity</h3>
+                        <span class="bar"><span class="creativity"></span></span>
+                    </li>
+                    <li><h3>communication</h3>
+                        <span class="bar"><span class="communication"></span></span>
+                    </li>
+                    <li><h3>problem solving</h3>
+                        <span class="bar"><span class="problemsolving"></span></span>
+                    </li>
+                    <li><h3>team work</h3>
+                        <span class="bar"><span class="teamwork"></span></span>
+                    </li>
+
+                </ul>
+               
+            </div>
+        </div>
+      
+    </div>
+<!-- ------services------ -->
+    <div class="services" id="Services">
+        <div class="container">
+            <h1>My Services</h1>
+            <div class="services-list">
+                <div class="boxes" data-aos="zoom-out">
+                    <i class="fa-solid fa-code" id="fa"></i>
+                    <h2>Web design</h2>
+                    <p>I craft visually stunning and user-friendly websites tailored to your brand’s unique identity. By ensuring seamless experiences across all devices with responsive design techniques, I deliver custom solutions that not only look great but also drive engagement and conversions.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div class="boxes" data-aos="zoom-out-up">
+                    <i class="fa-brands fa-python" id="fa"></i>
+                    <h2>Python Developer</h2>
+                    <p>As a Python developer, I am skilled in writing clean and efficient code to solve various programming challenges. I have experience in developing scripts, automating tasks, and working on small-scale projects. My goal is to continuously learn and apply my knowledge to build reliable and effective solutions.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div class="boxes" data-aos="zoom-out-down">
+                    <i class="fa-brands fa-html5" id="fa"></i>
+                    <h2>Web Developer</h2>
+                    <p>As a web developer, I create responsive and visually appealing websites that provide excellent user experiences. With expertise in HTML, CSS, JavaScript, and modern frameworks, I build efficient and scalable web applications. My passion lies in transforming ideas into functional and engaging digital solutions.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div class="boxes" data-aos="zoom-out-right">
+                    <i class="fa-solid fa-pen-clip" id="fa"></i>
+                    <h2>Content Writing</h2>
+                    <p>As a content writer, I create engaging and informative content that captivates readers and enhances brand messaging. With a keen eye for detail and a passion for storytelling, I craft articles, blog posts, and marketing materials that resonate with your audience and drive results. My goal is to deliver high-quality content that aligns with your business objectives.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <!-- <div class="boxes">
+                    <i class="fa-solid fa-pen-clip" id="fa"></i>
+                    <h2>Content Writing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum perspiciatis consectetur rem, corrupti animi nulla hic sunt quos neque ullam.</p>
+                    <a href="#">learn more</a>
+                </div> -->
+                <!-- <div class="boxes">
+                    <i class="fa-brands fa-figma" id="fa"></i>
+                    <h2>Graphics Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum perspiciatis consectetur rem, corrupti animi nulla hic sunt quos neque ullam.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div class="boxes">
+                    <i class="fa-solid fa-user" id="fa"></i>
+                    <h2>Logo Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum perspiciatis consectetur rem, corrupti animi nulla hic sunt quos neque ullam.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div class="boxes">
+                    <i class="fa-brands fa-stack-overflow" id="fa"></i>
+                    <h2>SEO</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum perspiciatis consectetur rem, corrupti animi nulla hic sunt quos neque ullam.</p>
+                    <a href="#">learn more</a>
+                </div> -->
+            </div>
+        </div>
+
+    </div>
+<!-- -----portfolio----- -->
+    <div id="portfolio">
+        <h1 class="tport">My Work</h1>
+        <div class="holderp">
+            <div class="b1" data-aos="flip-up"></div>
+            <div class="b2" data-aos="flip-down"></div>
+            <div class="b3" data-aos="fade-down-left"></div>    
+        </div>
+<!-------- education --------->
+    <div class="education" id="education">
+        <h1 class="eheading">EDUCATION</h1>
+        <ul id="accordion" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+            <li>
+                <input type="radio" name="accordion" id="first" >
+                <label for="first" class="labl">High School</label>
+               
+                <div class="content">
+                    <p>I am a graduate of Glazebrooke Public School, where I completed my secondary education with a strong emphasis on academic excellence. In the 10th standard, I achieved a notable score of 82%, showcasing my dedication and ability to perform well under academic pressure. Building upon this foundation, I excelled further in the 12th standard with an impressive score of 86%, underscoring my consistent commitment to achieving high standards of academic success. These accomplishments highlight my strong work ethic, perseverance, and capability to deliver outstanding results in challenging academic environments.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="second">
+                <label for="second">University</label>
+                
+                <div class="content">
+                    <p>
+    
+                        I am currently pursuing my undergraduate degree in CSE at Anna University, a renowned institution known for its academic excellence and rigorous curriculum. I have successfully completed three semesters with consistent academic achievement. 
+                        
+                        During my tenure, I have achieved commendable CGPA scores of 8.55, 8.45, and 8.18 in the first, second, and third semesters respectively. These results reflect my strong dedication to learning and ability to maintain high academic standards. 
+                        
+                        With an overall average CGPA of 8.38, I continue to excel in my studies, demonstrating a solid foundation in CSE and a commitment to achieving academic success. My academic performance underscores my capability to thrive in challenging academic environments and my readiness to contribute effectively to future endeavors.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="third">
+                <label for="third">Internship</label>
+                
+                <div class="content">
+                    <p>Excited for my upcoming internship to apply and expand my skills in software industry, learning from experienced professionals and contributing to impactful projects.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+<!-- ------contact-----    -->
+<div id="contact">
+    <div class="holder3">
+        <div class="row">
+            <div class="contact-left" data-aos="fade-up-left">
+                <h1 class="ch">Contact Me</h1>
+                <p class="email">sanjaybalaji.ks@gmail.com</p>
+                <p>7010089425</p>
+                <div class="sicons">
+                    <a href="https://wa.me/7010089425"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto:sanjaybalaji.ks@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://github.com/sanjay1612004"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sanjay-balaji-a76645279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+                   
+                </div>
+            </div>
+            <div class="contact-right" data-aos="fade-up-right">
+                <form class="forms" id="form">
+                    <input type="hidden" name="access_key" value="afb21f89-de32-4647-8395-87d0d3a994be">
+                    <div class="items">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    </div>
+                    <div class="items" id="email">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="items">
+                    
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="items">
+                    <button type="sumbit" class="btn-grad">Sumbit</button>
+                    </div>
+                    <div id="result"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="sicons1">
+            <a href="https://wa.me/7010089425"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:sanjaybalaji.ks@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/sanjay1612004"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sanjay-balaji-a76645279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+           
+        </div>
+        <div class="footerh">
+            <h2 class="heading">Portfolio</h2>
+            <ul id="sidemenu1">
+                <li class="mli"><a class="link" href="#home">Home</a></li>
+                <li class="mli"><a class="link" href="#about">About</a></li>
+                <li class="mli"><a class="link" href="#Services">Services</a></li>
+                <li class="mli"><a class="link" href="#portfolio">Portfolio</a></li>
+                <li class="mli"><a class="link" href="#education">Education</a></li>
+                <li class="mli"><a class="link" href="#contact">ContactMe</a></li>
+                
+            </ul>
+        </div>
+        <p class="copy"><i class="fa-regular fa-copyright"></i> Sanjaybalaji|All Rights Reserved</p>
+    </div>
+</div>
+</div>
+<script>
+    // let i1=document.querySelector(".fa-bars");
+    // let i2=document.querySelector(".fa-xmark");
+    let nbar=document.querySelector("#sidemenu");
+    const form = document.getElementById('form');
+    const result = document.getElementById('result');
+    let connect=document.querySelector('.connect');
+    let resume=document.querySelector('.resume');
+    function closemenu(){
+        nbar.style.right="-200px";
+        nbar.style.display="none";
+    }
+    function openmenu(){
+        nbar.style.display="block";
+        nbar.style.right="0";
+    }
+    document.querySelector(".b1").addEventListener(
+        'click',function(){
+            window.location.href="https://sanjay1612004.github.io/wheather-app/";
+        });
+    document.querySelector(".b2").addEventListener(
+        'click',function(){
+            window.location.href="https://sanjay1612004.github.io/calculator/";
+
+        }
+    );
+    document.querySelector(".b3").addEventListener(
+        'click',function(){
+            window.location.href="https://sanjay1612004.github.io/recipe/";
+
+        }
+    );
+    connect.addEventListener(
+        'click',function(){
+            window.location.href="https://www.linkedin.com/in/sanjay-balaji-a76645279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";
+
+        }
+    );
+    resume.addEventListener(
+        'click',function(){
+            window.location.href="file:///C:/Users/user/Desktop/html%20and%20css/sanjayresume.pdf";
+
+        }
+    );
+
+    form.addEventListener('submit', function(e) {
+    const formData = new FormData(form);
+    e.preventDefault();
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    result.innerHTML = "Please wait..."
+
+    fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: json
+        })
+        .then(async (response) => {
+            let json = await response.json();
+            if (response.status == 200) {
+                result.innerHTML = json.message;
+            } else {
+                console.log(response);
+                result.innerHTML = json.message;
+            }
+        })
+        .catch(error => {
+            console.log(error);
+            result.innerHTML = "Something went wrong!";
+        })
+        .then(function() {
+            form.reset();
+            setTimeout(() => {
+                result.style.display = "none";
+            }, 3000);
+        });
+    });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
